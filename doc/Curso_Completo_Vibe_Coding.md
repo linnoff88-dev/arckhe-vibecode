@@ -7,12 +7,12 @@
 -   Conceito e origem\
 -   Diferença entre programar tradicionalmente e programar com IA\
 -   Quando usar (MVP, protótipos, automações)\
--   Quando NÃO usar
+-   Quando NêO usar
 
 ### 🔹 Mentalidade do Vibe Coder
 
 -   Pensar em requisitos em vez de código\
--   Trabalhar por iteração\
+-   Trabalhar por iteraçêo\
 -   Validar sempre antes de avançar
 
 ------------------------------------------------------------------------
@@ -23,18 +23,18 @@
 
 -   Editor de código (VS Code, Cursor etc.)\
 -   Uso de IA (ChatGPT, Copilot, agentes)\
--   Instalação de Node/Python
+-   Instalaçêo de Node/Python
 
-### 🔹 Controle de Versão
+### 🔹 Controle de Versêo
 
 -   Git básico\
 -   Commits estratégicos\
 -   Como desfazer erros
 
-### 🔹 Organização de Projetos
+### 🔹 Organizaçêo de Projetos
 
 -   Estrutura de pastas\
--   Separação de responsabilidades
+-   Separaçêo de responsabilidades
 
 ------------------------------------------------------------------------
 
@@ -49,31 +49,31 @@
 ### 🔹 Estratégias Avançadas
 
 -   Quebrar problemas grandes em partes\
--   Pedir revisão e refatoração\
+-   Pedir revisêo e refatoraçêo\
 -   Pedir explicações do código\
 -   Gerar múltiplas soluções
 
 ### 🔹 Debug com IA
 
 -   Como enviar erro corretamente\
--   Como pedir correção eficiente\
+-   Como pedir correçêo eficiente\
 -   Como isolar problemas
 
 ------------------------------------------------------------------------
 
-## 💻 MÓDULO 4 --- Construção de Projetos Práticos
+## 💻 MÓDULO 4 --- Construçêo de Projetos Práticos
 
 ### 🔹 Projeto 1 --- Landing Page
 
 -   HTML básico\
--   Estilização com CSS\
+-   Estilizaçêo com CSS\
 -   Ajustes com IA
 
-### 🔹 Projeto 2 --- Aplicação Web Simples
+### 🔹 Projeto 2 --- Aplicaçêo Web Simples
 
 -   Frontend + Backend\
 -   CRUD (Create, Read, Update, Delete)\
--   Conexão com banco de dados
+-   Conexêo com banco de dados
 
 ### 🔹 Projeto 3 --- API
 
@@ -81,11 +81,11 @@
 -   Estrutura REST\
 -   Teste com Postman
 
-### 🔹 Projeto 4 --- Automação
+### 🔹 Projeto 4 --- Automaçêo
 
 -   Scripts\
--   Manipulação de dados\
--   Integração com APIs externas
+-   Manipulaçêo de dados\
+-   Integraçêo com APIs externas
 
 ------------------------------------------------------------------------
 
@@ -93,17 +93,17 @@
 
 ### 🔹 Testes Automatizados
 
--   O que são testes\
+-   O que sêo testes\
 -   Como pedir testes para a IA\
 -   Testes unitários básicos
 
-### 🔹 Revisão de Código
+### 🔹 Revisêo de Código
 
 -   Legibilidade\
--   Organização\
+-   Organizaçêo\
 -   Performance básica
 
-### 🔹 Refatoração
+### 🔹 Refatoraçêo
 
 -   Melhorando código gerado\
 -   Reduzindo complexidade
@@ -114,11 +114,11 @@
 
 ### 🔹 Segurança Básica
 
--   Validação de dados\
--   Proteção contra ataques simples\
+-   Validaçêo de dados\
+-   Proteçêo contra ataques simples\
 -   Uso seguro de APIs
 
-### 🔹 Gestão de Segredos
+### 🔹 Gestêo de Segredos
 
 -   Variáveis de ambiente\
 -   Tokens e chaves
@@ -130,7 +130,7 @@
 
 ------------------------------------------------------------------------
 
-## 🚀 MÓDULO 7 --- Deploy e Publicação
+## 🚀 MÓDULO 7 --- Deploy e Publicaçêo
 
 ### 🔹 Rodar Localmente
 
@@ -140,7 +140,7 @@
 ### 🔹 Deploy
 
 -   Hospedagem simples (Vercel, Render etc.)\
--   Configuração de domínio
+-   Configuraçêo de domínio
 
 ------------------------------------------------------------------------
 
@@ -149,11 +149,11 @@
 ### 🔹 Uso de Agentes
 
 -   IA executando múltiplas tarefas\
--   Automação de fluxo completo
+-   Automaçêo de fluxo completo
 
 ### 🔹 Produtividade Avançada
 
--   Gerar documentação automática\
+-   Gerar documentaçêo automática\
 -   Criar roadmap com IA\
 -   Construir projetos mais complexos
 
@@ -168,5 +168,5 @@
 
 ### 🔹 Como Evoluir
 
--   Quando aprender programação tradicional\
+-   Quando aprender programaçêo tradicional\
 -   Como usar IA como multiplicador

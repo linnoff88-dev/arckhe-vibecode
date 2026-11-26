@@ -127,7 +127,7 @@
       </div>
 
       <p class="text-neutral-300 mb-6 leading-relaxed">
-        Dois desenvolvedores, a mesma ferramenta, o mesmo modelo de IA. Um recebe código preciso que funciona na primeira tentativa. O outro recebe código genérico que precisa de 5 rodadas de correção. A diferença quase nunca é a ferramenta — é a qualidade do prompt. <strong class="text-emerald-400">Prompt engineering é a habilidade central do vibe coder</strong>.
+        Dois desenvolvedores, a mesma ferramenta, o mesmo modelo de IA. Um recebe código preciso que funciona na primeira tentativa. O outro recebe código genérico que precisa de 5 rodadas de correçêo. A diferença quase nunca é a ferramenta — é a qualidade do prompt. <strong class="text-emerald-400">Prompt engineering é a habilidade central do vibe coder</strong>.
       </p>
 
       <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6">
@@ -135,15 +135,15 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
             <p class="text-xs font-semibold text-red-400 mb-2 uppercase">Prompt vago</p>
-            <div class="bg-dark-800 rounded-lg p-3 text-sm text-neutral-400 font-mono">"crie uma função de validação"</div>
+            <div class="bg-dark-800 rounded-lg p-3 text-sm text-neutral-400 font-mono">"crie uma funçêo de validaçêo"</div>
             <div class="mt-3 text-xs text-neutral-500">
               <p class="font-semibold text-neutral-400 mb-1">Resultado:</p>
-              <p>Função genérica de validação de email (a IA chutou o tipo). Sem tratamento de erro. Retorna boolean sem mensagem. Não integra com o formulário existente.</p>
+              <p>Funçêo genérica de validaçêo de email (a IA chutou o tipo). Sem tratamento de erro. Retorna boolean sem mensagem. Nêo integra com o formulário existente.</p>
             </div>
           </div>
           <div>
             <p class="text-xs font-semibold text-emerald-400 mb-2 uppercase">Prompt específico</p>
-            <div class="bg-dark-800 rounded-lg p-3 text-sm text-neutral-300 font-mono">"crie uma função validateHabitForm(data) que recebe {name: string, frequency: 'daily'|'weekly'} e retorna {valid: boolean, errors: Record&lt;string, string&gt;}. Se name estiver vazio, errors.name = 'Nome obrigatório'"</div>
+            <div class="bg-dark-800 rounded-lg p-3 text-sm text-neutral-300 font-mono">"crie uma funçêo validateHabitForm(data) que recebe {name: string, frequency: 'daily'|'weekly'} e retorna {valid: boolean, errors: Record&lt;string, string&gt;}. Se name estiver vazio, errors.name = 'Nome obrigatório'"</div>
             <div class="mt-3 text-xs text-neutral-500">
               <p class="font-semibold text-neutral-400 mb-1">Resultado:</p>
               <p>Exatamente o que foi pedido, com tipos TypeScript corretos, integra com o formulário e tem mensagens de erro específicas.</p>
@@ -157,7 +157,7 @@
           <span class="mr-2">📊</span> O impacto mensurável de prompts melhores
         </h3>
         <ul class="space-y-2 text-neutral-300">
-          <li>Prompts bem estruturados reduzem as rodadas de iteração em <strong>~60%</strong> (baseado em uso real de times de desenvolvimento)</li>
+          <li>Prompts bem estruturados reduzem as rodadas de iteraçêo em <strong>~60%</strong> (baseado em uso real de times de desenvolvimento)</li>
           <li>Desenvolvedores que aprendem prompt engineering reportam <strong>2-3x mais produtividade</strong> com as mesmas ferramentas</li>
           <li>O custo de tokens também cai — prompts precisos geram respostas mais curtas e focadas</li>
         </ul>
@@ -172,7 +172,7 @@
       </div>
 
       <p class="text-neutral-300 mb-6 leading-relaxed">
-        Todo prompt eficaz para código tem quatro componentes. Você não precisa de todos em todos os prompts — mas quanto mais presentes, mais preciso o resultado. A estrutura é: <strong class="text-emerald-400">Contexto + Tarefa + Restrições + Resultado Esperado</strong>.
+        Todo prompt eficaz para código tem quatro componentes. Você nêo precisa de todos em todos os prompts — mas quanto mais presentes, mais preciso o resultado. A estrutura é: <strong class="text-emerald-400">Contexto + Tarefa + Restrições + Resultado Esperado</strong>.
       </p>
 
       <div class="space-y-4 mb-6">
@@ -183,7 +183,7 @@
           <div class="flex-1 bg-dark-800 rounded-xl p-6 border border-dark-600">
             <h4 class="font-semibold text-white mb-2">Contexto — onde estamos</h4>
             <p class="text-sm text-neutral-400 mb-2">O que o agente precisa saber sobre o projeto</p>
-            <div class="bg-dark-700 rounded-lg p-3 font-mono text-sm text-emerald-400">"Estamos em um app Next.js 14 de gestão de hábitos. O componente HabitForm já existe em /components/HabitForm.tsx."</div>
+            <div class="bg-dark-700 rounded-lg p-3 font-mono text-sm text-emerald-400">"Estamos em um app Next.js 14 de gestêo de hábitos. O componente HabitForm já existe em /components/HabitForm.tsx."</div>
           </div>
         </div>
         <div class="flex items-start space-x-4">
@@ -192,8 +192,8 @@
           </div>
           <div class="flex-1 bg-dark-800 rounded-xl p-6 border border-dark-600">
             <h4 class="font-semibold text-white mb-2">Tarefa — o que precisa ser feito</h4>
-            <p class="text-sm text-neutral-400 mb-2">Ação específica, com verbo claro</p>
-            <div class="bg-dark-700 rounded-lg p-3 font-mono text-sm text-emerald-400">"Adicione validação ao formulário que impeça submissão se o campo 'nome' estiver vazio."</div>
+            <p class="text-sm text-neutral-400 mb-2">Açêo específica, com verbo claro</p>
+            <div class="bg-dark-700 rounded-lg p-3 font-mono text-sm text-emerald-400">"Adicione validaçêo ao formulário que impeça submissêo se o campo 'nome' estiver vazio."</div>
           </div>
         </div>
         <div class="flex items-start space-x-4">
@@ -201,9 +201,9 @@
             <span class="text-emerald-400 font-bold">R</span>
           </div>
           <div class="flex-1 bg-dark-800 rounded-xl p-6 border border-dark-600">
-            <h4 class="font-semibold text-white mb-2">Restrições — o que não fazer</h4>
+            <h4 class="font-semibold text-white mb-2">Restrições — o que nêo fazer</h4>
             <p class="text-sm text-neutral-400 mb-2">Limites explícitos que previnem saídas indesejadas</p>
-            <div class="bg-dark-700 rounded-lg p-3 font-mono text-sm text-emerald-400">"Não use bibliotecas externas. Não mude a estrutura atual do componente. Apenas adicione a lógica de validação."</div>
+            <div class="bg-dark-700 rounded-lg p-3 font-mono text-sm text-emerald-400">"Nêo use bibliotecas externas. Nêo mude a estrutura atual do componente. Apenas adicione a lógica de validaçêo."</div>
           </div>
         </div>
         <div class="flex items-start space-x-4">
@@ -213,16 +213,16 @@
           <div class="flex-1 bg-dark-800 rounded-xl p-6 border border-dark-600">
             <h4 class="font-semibold text-white mb-2">Resultado Esperado — como fica</h4>
             <p class="text-sm text-neutral-400 mb-2">O comportamento final que confirma que funcionou</p>
-            <div class="bg-dark-700 rounded-lg p-3 font-mono text-sm text-emerald-400">"O botão deve ficar desabilitado enquanto o campo estiver vazio. Mensagem 'Nome obrigatório' deve aparecer abaixo do input em text-red-400."</div>
+            <div class="bg-dark-700 rounded-lg p-3 font-mono text-sm text-emerald-400">"O botêo deve ficar desabilitado enquanto o campo estiver vazio. Mensagem 'Nome obrigatório' deve aparecer abaixo do input em text-red-400."</div>
           </div>
         </div>
       </div>
 
       <div class="bg-primary/10 rounded-xl border border-primary/30 p-6">
         <h3 class="text-lg font-semibold text-primary mb-3 flex items-center">
-          <span class="mr-2">💡</span> Não precisa ser formal
+          <span class="mr-2">💡</span> Nêo precisa ser formal
         </h3>
-        <p class="text-neutral-300">Você não precisa escrever "Contexto:", "Tarefa:" como cabeçalhos. O importante é que o prompt contenha essas informações de forma natural. O agente extrai a estrutura do texto — apenas certifique-se de que tudo está lá.</p>
+        <p class="text-neutral-300">Você nêo precisa escrever "Contexto:", "Tarefa:" como cabeçalhos. O importante é que o prompt contenha essas informações de forma natural. O agente extrai a estrutura do texto — apenas certifique-se de que tudo está lá.</p>
       </div>
     </section>
 
@@ -234,17 +234,17 @@
       </div>
 
       <p class="text-neutral-300 mb-6 leading-relaxed">
-        Para funções e componentes, o nível de precisão mais eficaz é especificar exatamente <strong class="text-emerald-400">o que entra e o que sai</strong>. "Faça uma função" é vago. "Função que recebe X e retorna Y" gera código que integra perfeitamente com o resto do sistema.
+        Para funções e componentes, o nível de precisêo mais eficaz é especificar exatamente <strong class="text-emerald-400">o que entra e o que sai</strong>. "Faça uma funçêo" é vago. "Funçêo que recebe X e retorna Y" gera código que integra perfeitamente com o resto do sistema.
       </p>
 
       <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6">
-        <h3 class="text-lg font-semibold text-emerald-400 mb-4">📋 Tipos de especificação de entrada/saída</h3>
+        <h3 class="text-lg font-semibold text-emerald-400 mb-4">📋 Tipos de especificaçêo de entrada/saída</h3>
 
         <div class="space-y-4">
           <div>
             <p class="text-sm font-semibold text-white mb-2">Para funções:</p>
             <div class="bg-dark-800 rounded-lg p-3 font-mono text-sm text-neutral-300">
-              "Crie uma função <span class="text-emerald-400">formatCurrency(value: number, locale: string)</span> que retorna uma <span class="text-blue-400">string</span> no formato moeda (ex: R$ 1.234,56 para pt-BR)"
+              "Crie uma funçêo <span class="text-emerald-400">formatCurrency(value: number, locale: string)</span> que retorna uma <span class="text-blue-400">string</span> no formato moeda (ex: R$ 1.234,56 para pt-BR)"
             </div>
           </div>
           <div>
@@ -264,15 +264,15 @@
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div class="bg-dark-800 rounded-xl border border-dark-600 p-6">
-          <h4 class="font-bold text-red-400 mb-4">✗ Prompts de função vagos</h4>
+          <h4 class="font-bold text-red-400 mb-4">✗ Prompts de funçêo vagos</h4>
           <ul class="space-y-2 text-neutral-300 text-sm">
-            <li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>"faça uma função para formatar data"</span></li>
+            <li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>"faça uma funçêo para formatar data"</span></li>
             <li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>"crie um helper para o formulário"</span></li>
-            <li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>"função que verifica se o usuário tem acesso"</span></li>
+            <li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>"funçêo que verifica se o usuário tem acesso"</span></li>
           </ul>
         </div>
         <div class="bg-dark-800 rounded-xl border border-dark-600 p-6">
-          <h4 class="font-bold text-emerald-400 mb-4">✓ Prompts de função precisos</h4>
+          <h4 class="font-bold text-emerald-400 mb-4">✓ Prompts de funçêo precisos</h4>
           <ul class="space-y-2 text-neutral-300 text-sm">
             <li class="flex items-start space-x-2"><span class="text-emerald-400">✓</span><span>"formatDate(date: Date) → string no formato 'dd/mm/yyyy'"</span></li>
             <li class="flex items-start space-x-2"><span class="text-emerald-400">✓</span><span>"validateForm(fields) → {valid: bool, errors: object}"</span></li>
@@ -290,16 +290,16 @@
       </div>
 
       <p class="text-neutral-300 mb-6 leading-relaxed">
-        Exemplos são o atalho mais eficaz para resultados precisos. Quando você mostra o que quer, a IA infere o padrão e replica — mais rápido e mais fiel do que qualquer descrição verbal. Isso é chamado de <strong class="text-emerald-400">few-shot prompting</strong> e é tecnicamente validado em pesquisas sobre LLMs.
+        Exemplos sêo o atalho mais eficaz para resultados precisos. Quando você mostra o que quer, a IA infere o padrêo e replica — mais rápido e mais fiel do que qualquer descriçêo verbal. Isso é chamado de <strong class="text-emerald-400">few-shot prompting</strong> e é tecnicamente validado em pesquisas sobre LLMs.
       </p>
 
       <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6">
         <h3 class="text-lg font-semibold text-emerald-400 mb-4">📝 Few-shot prompting em prática</h3>
         <div class="bg-dark-800 rounded-lg p-4 font-mono text-sm text-neutral-300 space-y-2">
           <div class="text-neutral-500"># Sem exemplos (zero-shot)</div>
-          <div>"Crie funções de formatação para os dados de hábitos"</div>
+          <div>"Crie funções de formataçêo para os dados de hábitos"</div>
           <div class="mt-4 text-neutral-500"># Com exemplos (few-shot) — muito mais preciso</div>
-          <div>"Crie funções de formatação seguindo o padrão abaixo:</div>
+          <div>"Crie funções de formataçêo seguindo o padrêo abaixo:</div>
           <div class="ml-4 text-neutral-400">// Exemplo existente</div>
           <div class="ml-4">const formatDate = (d: Date) => d.toLocaleDateString('pt-BR')</div>
           <div class="ml-4 text-neutral-400">// Crie da mesma forma:</div>
@@ -310,12 +310,12 @@
 
       <div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6 mb-6">
         <h3 class="text-lg font-semibold text-blue-400 mb-4 flex items-center">
-          <span class="mr-2">📊</span> Quando exemplos são essenciais
+          <span class="mr-2">📊</span> Quando exemplos sêo essenciais
         </h3>
         <ul class="space-y-3 text-neutral-300">
           <li class="flex items-start space-x-3">
             <span class="text-blue-400 mt-0.5">→</span>
-            <span><strong class="text-white">Estilo de código:</strong> Quando seu projeto tem convenções específicas (nomes de variáveis, estrutura de arquivos, padrão de comentários)</span>
+            <span><strong class="text-white">Estilo de código:</strong> Quando seu projeto tem convenções específicas (nomes de variáveis, estrutura de arquivos, padrêo de comentários)</span>
           </li>
           <li class="flex items-start space-x-3">
             <span class="text-blue-400 mt-0.5">→</span>
@@ -323,7 +323,7 @@
           </li>
           <li class="flex items-start space-x-3">
             <span class="text-blue-400 mt-0.5">→</span>
-            <span><strong class="text-white">Componentes consistentes:</strong> Quando você quer que o novo componente siga o padrão visual e estrutural dos existentes</span>
+            <span><strong class="text-white">Componentes consistentes:</strong> Quando você quer que o novo componente siga o padrêo visual e estrutural dos existentes</span>
           </li>
         </ul>
       </div>
@@ -332,7 +332,7 @@
         <h3 class="text-lg font-semibold text-primary mb-3 flex items-center">
           <span class="mr-2">💡</span> Use @referências no Cursor
         </h3>
-        <p class="text-neutral-300">No Cursor, use <code class="bg-dark-700 px-1.5 py-0.5 rounded text-primary">@componente.tsx</code> para incluir um arquivo existente como exemplo. "Crie um componente similar ao @HabitCard.tsx mas para metas semanais" é mais eficaz do que descrever o padrão em palavras.</p>
+        <p class="text-neutral-300">No Cursor, use <code class="bg-dark-700 px-1.5 py-0.5 rounded text-primary">@componente.tsx</code> para incluir um arquivo existente como exemplo. "Crie um componente similar ao @HabitCard.tsx mas para metas semanais" é mais eficaz do que descrever o padrêo em palavras.</p>
       </div>
     </section>
 
@@ -352,13 +352,13 @@
         <div class="space-y-3">
           <div class="bg-dark-800 rounded-lg p-4">
             <p class="text-sm font-semibold text-red-400 mb-2">Pedido monolítico (evitar):</p>
-            <p class="text-sm text-neutral-400 font-mono">"Crie um sistema de autenticação completo com login, registro, recuperação de senha, sessão persistente e proteção de rotas"</p>
+            <p class="text-sm text-neutral-400 font-mono">"Crie um sistema de autenticaçêo completo com login, registro, recuperaçêo de senha, sessêo persistente e proteçêo de rotas"</p>
           </div>
           <div class="text-center text-neutral-500 text-sm">Dividir em:</div>
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <div class="bg-emerald-900/20 border border-emerald-500/30 rounded-lg p-3">
               <p class="text-xs font-semibold text-emerald-400 mb-1">Passo 1</p>
-              <p class="text-xs text-neutral-300">"Crie a página de login com formulário (email + senha) e validação básica. Sem lógica de auth ainda."</p>
+              <p class="text-xs text-neutral-300">"Crie a página de login com formulário (email + senha) e validaçêo básica. Sem lógica de auth ainda."</p>
             </div>
             <div class="bg-emerald-900/20 border border-emerald-500/30 rounded-lg p-3">
               <p class="text-xs font-semibold text-emerald-400 mb-1">Passo 2</p>
@@ -366,11 +366,11 @@
             </div>
             <div class="bg-emerald-900/20 border border-emerald-500/30 rounded-lg p-3">
               <p class="text-xs font-semibold text-emerald-400 mb-1">Passo 3</p>
-              <p class="text-xs text-neutral-300">"Salve o token no cookie httpOnly e crie middleware de proteção de rota"</p>
+              <p class="text-xs text-neutral-300">"Salve o token no cookie httpOnly e crie middleware de proteçêo de rota"</p>
             </div>
             <div class="bg-emerald-900/20 border border-emerald-500/30 rounded-lg p-3">
               <p class="text-xs font-semibold text-emerald-400 mb-1">Passo 4</p>
-              <p class="text-xs text-neutral-300">"Adicione a tela de registro seguindo o mesmo padrão do login"</p>
+              <p class="text-xs text-neutral-300">"Adicione a tela de registro seguindo o mesmo padrêo do login"</p>
             </div>
           </div>
         </div>
@@ -380,7 +380,7 @@
         <h3 class="text-lg font-semibold text-primary mb-3 flex items-center">
           <span class="mr-2">💡</span> Peça o plano antes do código
         </h3>
-        <p class="text-neutral-300">Para features complexas, comece com: <strong class="text-primary">"Antes de escrever qualquer código, me dê um plano de como você implementaria [feature]"</strong>. Revise o plano, ajuste a abordagem, e só então peça a implementação passo a passo. Isso elimina 90% dos retrabalhos.</p>
+        <p class="text-neutral-300">Para features complexas, comece com: <strong class="text-primary">"Antes de escrever qualquer código, me dê um plano de como você implementaria [feature]"</strong>. Revise o plano, ajuste a abordagem, e só entêo peça a implementaçêo passo a passo. Isso elimina 90% dos retrabalhos.</p>
       </div>
     </section>
 
@@ -388,16 +388,16 @@
     <section id="topico-6" class="mb-16">
       <div class="flex items-center space-x-4 mb-6">
         <span class="flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl flex-shrink-0">6</span>
-        <h2 class="text-2xl font-bold">🔁 Pedir revisão e refatoração</h2>
+        <h2 class="text-2xl font-bold">🔁 Pedir revisêo e refatoraçêo</h2>
       </div>
 
       <p class="text-neutral-300 mb-6 leading-relaxed">
-        Uma das capacidades mais subutilizadas: usar a IA para <strong class="text-emerald-400">melhorar o código que ela mesma gerou</strong>. Depois de ter algo funcionando, você pode pedir revisão de segurança, performance, legibilidade e manutenibilidade — tudo em prompts separados.
+        Uma das capacidades mais subutilizadas: usar a IA para <strong class="text-emerald-400">melhorar o código que ela mesma gerou</strong>. Depois de ter algo funcionando, você pode pedir revisêo de segurança, performance, legibilidade e manutenibilidade — tudo em prompts separados.
       </p>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
         <div class="bg-dark-800 rounded-xl border border-dark-600 p-6">
-          <h4 class="font-bold text-emerald-400 mb-4">Prompts de revisão úteis</h4>
+          <h4 class="font-bold text-emerald-400 mb-4">Prompts de revisêo úteis</h4>
           <ul class="space-y-3 text-neutral-300 text-sm font-mono">
             <li class="flex items-start space-x-2">
               <span class="text-emerald-400 mt-0.5">›</span>
@@ -422,7 +422,7 @@
           <div class="space-y-2 text-sm">
             <div class="flex items-center space-x-2">
               <span class="w-6 h-6 rounded-full bg-emerald-500/20 flex items-center justify-center text-xs text-emerald-400 font-bold flex-shrink-0">1</span>
-              <span class="text-neutral-300">Faça funcionar (prompt de implementação)</span>
+              <span class="text-neutral-300">Faça funcionar (prompt de implementaçêo)</span>
             </div>
             <div class="flex items-center space-x-2">
               <span class="w-6 h-6 rounded-full bg-emerald-500/20 flex items-center justify-center text-xs text-emerald-400 font-bold flex-shrink-0">2</span>
@@ -430,15 +430,15 @@
             </div>
             <div class="flex items-center space-x-2">
               <span class="w-6 h-6 rounded-full bg-emerald-500/20 flex items-center justify-center text-xs text-emerald-400 font-bold flex-shrink-0">3</span>
-              <span class="text-neutral-300">Peça revisão de segurança</span>
+              <span class="text-neutral-300">Peça revisêo de segurança</span>
             </div>
             <div class="flex items-center space-x-2">
               <span class="w-6 h-6 rounded-full bg-emerald-500/20 flex items-center justify-center text-xs text-emerald-400 font-bold flex-shrink-0">4</span>
-              <span class="text-neutral-300">Peça revisão de performance</span>
+              <span class="text-neutral-300">Peça revisêo de performance</span>
             </div>
             <div class="flex items-center space-x-2">
               <span class="w-6 h-6 rounded-full bg-emerald-500/20 flex items-center justify-center text-xs text-emerald-400 font-bold flex-shrink-0">5</span>
-              <span class="text-neutral-300">Peça refatoração de legibilidade</span>
+              <span class="text-neutral-300">Peça refatoraçêo de legibilidade</span>
             </div>
           </div>
         </div>
@@ -448,7 +448,7 @@
         <h3 class="text-lg font-semibold text-blue-400 mb-3 flex items-center">
           <span class="mr-2">📊</span> Por que separar as revisões funciona
         </h3>
-        <p class="text-neutral-300">Quando você pede segurança + performance + legibilidade em um único prompt, a IA faz tudo de forma superficial. Quando você pede um aspecto por vez, ela vai a fundo em cada dimensão. A qualidade do output melhora substancialmente com prompts focados.</p>
+        <p class="text-neutral-300">Quando você pede segurança + performance + legibilidade em um único prompt, a IA faz tudo de forma superficial. Quando você pede um aspecto por vez, ela vai a fundo em cada dimensêo. A qualidade do output melhora substancialmente com prompts focados.</p>
       </div>
     </section>
 
@@ -460,7 +460,7 @@
       </div>
 
       <p class="text-neutral-300 mb-6 leading-relaxed">
-        Depois de analisar centenas de sessões de vibe coding, cinco padrões de erro aparecem repetidamente. Conhecê-los antes de cometê-los economiza horas de frustração. Cada erro tem uma correção simples e direta.
+        Depois de analisar centenas de sessões de vibe coding, cinco padrões de erro aparecem repetidamente. Conhecê-los antes de cometê-los economiza horas de frustraçêo. Cada erro tem uma correçêo simples e direta.
       </p>
 
       <div class="space-y-6">
@@ -491,7 +491,7 @@
               <span class="text-red-400 font-bold">2</span>
             </div>
             <div class="flex-1">
-              <h4 class="font-semibold text-white mb-2">Não especificar a stack</h4>
+              <h4 class="font-semibold text-white mb-2">Nêo especificar a stack</h4>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
                 <div class="bg-red-900/20 rounded-lg p-3 text-sm">
                   <p class="text-red-400 font-semibold text-xs mb-1">Errado:</p>
@@ -516,7 +516,7 @@
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
                 <div class="bg-red-900/20 rounded-lg p-3 text-sm">
                   <p class="text-red-400 font-semibold text-xs mb-1">Errado:</p>
-                  <p class="text-neutral-300 font-mono">"não funcionou, tente de novo"</p>
+                  <p class="text-neutral-300 font-mono">"nêo funcionou, tente de novo"</p>
                 </div>
                 <div class="bg-emerald-900/20 rounded-lg p-3 text-sm">
                   <p class="text-emerald-400 font-semibold text-xs mb-1">Correto:</p>
@@ -545,7 +545,7 @@
               <span class="text-red-400 font-bold">5</span>
             </div>
             <div class="flex-1">
-              <h4 class="font-semibold text-white mb-2">Não especificar o que não mudar</h4>
+              <h4 class="font-semibold text-white mb-2">Nêo especificar o que nêo mudar</h4>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
                 <div class="bg-red-900/20 rounded-lg p-3 text-sm">
                   <p class="text-red-400 font-semibold text-xs mb-1">Errado:</p>
@@ -553,7 +553,7 @@
                 </div>
                 <div class="bg-emerald-900/20 rounded-lg p-3 text-sm">
                   <p class="text-emerald-400 font-semibold text-xs mb-1">Correto:</p>
-                  <p class="text-neutral-300 font-mono">"adicione dark mode. Não mude a estrutura HTML, apenas os estilos Tailwind"</p>
+                  <p class="text-neutral-300 font-mono">"adicione dark mode. Nêo mude a estrutura HTML, apenas os estilos Tailwind"</p>
                 </div>
               </div>
             </div>
@@ -580,11 +580,11 @@
           </div>
           <div class="flex items-start space-x-3">
             <span class="text-emerald-400 mt-1">✓</span>
-            <div><strong class="text-white">Especifique entrada e saída para funções</strong><span class="text-neutral-400"> — não "crie uma função" mas "função que recebe X e retorna Y"</span></div>
+            <div><strong class="text-white">Especifique entrada e saída para funções</strong><span class="text-neutral-400"> — nêo "crie uma funçêo" mas "funçêo que recebe X e retorna Y"</span></div>
           </div>
           <div class="flex items-start space-x-3">
             <span class="text-emerald-400 mt-1">✓</span>
-            <div><strong class="text-white">Exemplos são mais eficazes que descrições</strong><span class="text-neutral-400"> — use @referências e few-shot prompting</span></div>
+            <div><strong class="text-white">Exemplos sêo mais eficazes que descrições</strong><span class="text-neutral-400"> — use @referências e few-shot prompting</span></div>
           </div>
           <div class="flex items-start space-x-3">
             <span class="text-emerald-400 mt-1">✓</span>
