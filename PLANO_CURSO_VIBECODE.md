@@ -585,7 +585,7 @@ vibecode/
 - **Botões:** sempre alinhados à ESQUERDA (`justify-start`)
 - **Números:** em círculo, NUNCA setas
 - **Modal:** iframe carregando página do módulo
-- **Link obrigatório:** INEMA.CLUB em sky-400 em todas as páginas
+- **Link obrigatório:** ARCKHÉ AI em sky-400 em todas as páginas
 
 ---
 
